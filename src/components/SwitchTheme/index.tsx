@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../App";
+import style from "./style.module.css"
 
 const SwitchTheme = () => {
 
@@ -14,7 +15,7 @@ const SwitchTheme = () => {
 
   }
   return (
-    <div className="theme-switch-wrapper">
+    <div className={style.theme_switch}>
       <div onClick={handleClick}>
         {currentTheme?.theme === "dark" ? "Light" : "Dark"} theme
       </div>

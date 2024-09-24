@@ -55,12 +55,16 @@ border-radius: 3rem;
 transition: background 0.3s ease, color 0.3s ease;
 }
 .container{
+   
 	max-width: 1400px;
 	margin: 0 auto;
 	padding: 0 16px;
 	transition: all .5s ease;
 }
 
+p{
+    font-family: var(--text-font);
+}
 .dark,
 .light{
 	padding: 0.5rem;

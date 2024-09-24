@@ -1,7 +1,10 @@
 .container{
 	max-width: 1200px;
+    margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
 }
 @media screen and (max-width: 767px) {
     .container {

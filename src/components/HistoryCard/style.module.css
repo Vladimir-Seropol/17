@@ -14,6 +14,7 @@
     color: black;
     position: relative;
     font-size: 12px;
+    padding-bottom: 10px;
   }
   
   .wrapper h3 {
@@ -22,11 +23,6 @@
   }
   
 
-  
-  .description {
-    height: 30px;
-  }
-  
   .additional_info {
     margin: 5px 0;
     color: rgb(118, 118, 118);

@@ -20,3 +20,10 @@
 .info{
     padding: 20px;
 }
+@media screen and (max-width: 1000px) {
+    .item_wrapper {
+      flex-direction: column;
+      gap: 20px 0;
+      justify-items: center;
+    }
+}

@@ -11,7 +11,7 @@ import { DesktopMenu } from "./DesktopMenu";
   const isMobile = useIsMobile();
 
   return (
-    <header>
+    <header className="container">
       <div className={style.container}>
         <Link to="/" className={style.logo}>
           <img src={logo} alt="logo" />

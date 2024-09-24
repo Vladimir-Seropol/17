@@ -1,14 +1,15 @@
-.DisplayBean{
-	background: var(--dark-body-color);
+.container{
     padding: 5rem 2rem;
 color: var(--head-color);
+margin: 0 auto;
 }
 
 
-.DisplayBean h1 {
+.container h1 {
     margin: 50px 0;
     font-size: 48px;
     text-align: center;
     font-family: Lobster;
     color: var(--base-red);
 }
+

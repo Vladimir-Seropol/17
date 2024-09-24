@@ -1,20 +1,7 @@
-.container{
-	/*margin: 0 auto;*/
-	/*max-width: 1000px;*/
-	display: flex;
-    align-items: center;
-	/*width: 500px;*/
-	gap: 20px;
-	/*justify-content: center;*/
-}
 
-.container a {
-	font-size: 20px;
-	
-}
- ul,
-  li,
-   a {
+
+
+.link {
 	padding: 0.5rem;
 	margin-right: 0.2rem;
 	color: var(--head-color);
@@ -24,9 +11,7 @@
 	transition: background 0.3s ease, color 0.3s ease;
  }
  
-  ul,
-   li,
-	 a:hover {
+ .link:hover {
 	border: 0.1rem solid var(--secondary-color);
 	color: var(--head-color);
  }
