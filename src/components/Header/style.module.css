@@ -26,3 +26,21 @@
     font-family: "Lobster";
     color: var(--base-red);
   }
+  @keyframes favicon-shake {
+    0%, 100% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    }
+    .logo img:hover{
+        animation: favicon-shake .4s ease 1 alternate;
+    }
+    

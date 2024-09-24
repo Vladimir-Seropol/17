@@ -14,4 +14,3 @@ seasonal : boolean;
 sugarFree : boolean;
 
 };
-

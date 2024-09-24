@@ -47,7 +47,7 @@
   }
  }
  
- .container img:hover {
+ .block img:hover {
 	animation: favicon-shake 0.7s ease-in-out 2 alternate;
  }
  
