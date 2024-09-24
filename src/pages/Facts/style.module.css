@@ -1,0 +1,15 @@
+.container_fact{
+	background: var(--dark-body-color);
+    padding: 5rem 2rem;
+color: var(--head-color);
+}
+
+
+.container_fact h1 {
+    margin: 50px 0;
+    font-size: 48px;
+    text-align: center;
+    font-family: Lobster;
+    color: var(--base-red);
+}
+

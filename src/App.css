@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+@font-face{
+	font-family:  "Lobster";
+src: url("./fons/Lobster-Regular.ttf");
+}
+
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 16px;
+	transition: all .5s ease;
+}
+
+
+

@@ -1,0 +1,81 @@
+#root{
+	min-height: 100vh;
+    background-color: var(--light-body-color);
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url("./fons/Roboto/Roboto-Regular.ttf");
+} 
+
+
+@font-face {
+	font-family: Raleway;
+	src: url("./fons/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+
+@font-face {
+	font-family: Lobster;
+	src: url("./fons/Lobster-Regular.ttf");
+}
+
+
+
+:root {
+	--head-color: #e83a4b;
+	--secondary-color: #ee9085;
+	--light-pink: #fbd6d3;
+	--dark-red: #bd2328;
+	--btn-red: #ec2c2f;
+    --base-red: #e83a4b;
+	--light-body-color: #f9f5f4;
+	--dark-body-color: #eeeae6;
+	--max-width: 1400px;
+	--head-font: "Roboto", sans-serif;
+	--text-font: "Raleway", sans-serif;
+	--computer-font: "Space Mono", monospace;
+ }
+
+
+a{
+	color: #e83a4b;
+ color: var(--head-color);
+ font-family: Roboto, sans-serif;
+ font-family: var(--head-font);
+ text-decoration: none;
+}
+ul, li, a{
+	padding: 0.5rem;
+margin-right: 0.2rem;
+color: var(--head-color);
+background: transparent;
+border: 0.1rem solid transparent;
+border-radius: 3rem;
+transition: background 0.3s ease, color 0.3s ease;
+}
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 16px;
+	transition: all .5s ease;
+}
+
+.dark,
+.light{
+	padding: 0.5rem;
+    margin-right: 0.2rem;
+    color: var(--head-color);
+    background: transparent;
+    border: 0.1rem solid transparent;
+    border-radius: 3rem;
+    transition: background 0.3s ease, color 0.3s ease;
+    font-family: var(--head-font) "Roboto", sans-serif;
+}
+.dark{
+	background-color: rgb(106, 101, 101);
+
+}
+.dark p{
+    color: white;
+}

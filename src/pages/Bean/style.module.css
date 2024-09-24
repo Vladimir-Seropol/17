@@ -1,0 +1,22 @@
+.item_wrapper{
+    display: flex;
+    gap: 20px;
+   	align-items: center;
+    border: 1px solid var(--dark-body-color);
+    border-radius: 1rem;
+    height: 30rem;
+    justify-content: space-around;
+   
+}
+.item_wrapper div:first-child {
+    display: flex;
+    width: 100%;
+    
+}
+.item_wrapper img {
+     margin: 0 auto;
+    max-width:  50%;
+}
+.info{
+    padding: 20px;
+}

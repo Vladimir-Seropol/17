@@ -1,0 +1,54 @@
+.wrapper {
+    border-radius: 10px;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 0 0 7px rgb(160, 160, 160);
+  }
+  
+  .wrapper h3 {
+    color: var(--base-red);
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .wrapper h3::after {
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 2px;
+    background-color: var(--base-red);
+  }
+  .wrapper p {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .wrapper {
+      padding: 40px 20px;
+    }
+  
+    .wrapper h3 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .wrapper h3 {
+      font-size: 26px;
+    }
+  
+    .wrapper p {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .wrapper h3 {
+      font-size: 30px;
+    }
+  }

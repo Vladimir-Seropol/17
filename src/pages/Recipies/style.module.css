@@ -1,0 +1,7 @@
+.h1 {
+    margin: 50px 0;
+    font-size: 48px;
+    text-align: center;
+    font-family: Lobster;
+    color: var(--base-red);
+}
